@@ -3,14 +3,6 @@ import json
 import sys
 from branca.element import Template, MacroElement
 
-# pour avoir le nbr par catégorie. à faire
-# with open(
-#     "communes-ile-de-france_fleurs_4",
-# ) as f:
-#     data_fleurs = json.load(f, encoding="utf-8")
-# print(len(data_fleurs["features"]))
-
-# création map centrée sur Paris
 m = folium.Map(
     location=[48.7, 2.3],
     zoom_start=5,
